@@ -1,0 +1,28 @@
+/*
+* BasiCSS V1.0.0
+* Copyright 2021, Andrei Racasan
+* Free to use under MIT license
+* http://www.opensource.org/licenses/mit-license.php
+* January 2021
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --accent: #00d1c8;
+  --dark: #333;
+  --light: #fafafa;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+}
