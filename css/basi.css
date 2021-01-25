@@ -22,7 +22,83 @@ body {
   background-color: var(--light);
   color: var(--dark);
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
   line-height: 1.6;
   font-weight: 400;
+}
+
+h1 {
+  color: var(--accent);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav .logo {
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.px1 {
+  padding: 1rem 0;
+}
+.px2 {
+  padding: 2rem 0;
+}
+.px3 {
+  padding: 3rem 0;
+}
+.px4 {
+  padding: 4rem 0;
+}
+.px5 {
+  padding: 5rem 0;
+}
+
+.col {
+  display: flex;
+}
+
+.row {
+  flex: 1;
 }
