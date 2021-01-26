@@ -1,5 +1,5 @@
 /*
-* BasiCSS V1.0.0
+* BasiCSS V1.0.3
 * Copyright 2021, Andrei Racasan
 * Free to use under MIT license
 * http://www.opensource.org/licenses/mit-license.php
@@ -27,14 +27,46 @@ body {
   font-weight: 400;
 }
 
-h1 {
-  color: var(--accent);
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
 }
+
+h1 {
+  font-size: 3.75rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+  margin-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 3.1rem;
+  margin-bottom: 0.25rem;
+}
+
+h4 {
+  font-size: 2.7rem;
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  font-size: 2.35rem;
+  margin-bottom: 0.25rem;
+}
+
+h6 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* NAVBAR */
 
 nav .logo {
   font-weight: 500;
@@ -50,6 +82,18 @@ nav ul li {
   font-size: 1.7rem;
   margin: 0 1rem;
 }
+
+/* ROWS & COLS */
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+/* FLEXBOX */
 
 .d-flex {
   display: flex;
@@ -67,8 +111,24 @@ nav ul li {
   justify-content: space-between;
 }
 
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
 .ai-center {
   align-items: center;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.ai-flex-end {
+  align-items: flex-end;
 }
 
 .bg-dark {
@@ -79,26 +139,102 @@ nav ul li {
   color: var(--light);
 }
 
-.px1 {
+/* PADDING */
+
+.p1 {
+  padding: 1rem;
+}
+.p2 {
+  padding: 2rem;
+}
+.p3 {
+  padding: 3rem;
+}
+.p4 {
+  padding: 4rem;
+}
+.p5 {
+  padding: 5rem;
+}
+
+.py1 {
   padding: 1rem 0;
 }
-.px2 {
+.py2 {
   padding: 2rem 0;
 }
-.px3 {
+.py3 {
   padding: 3rem 0;
 }
-.px4 {
+.py4 {
   padding: 4rem 0;
 }
-.px5 {
+.py5 {
   padding: 5rem 0;
 }
 
-.col {
-  display: flex;
+.px1 {
+  padding: 0 1rem;
+}
+.px2 {
+  padding: 0 2rem;
+}
+.px3 {
+  padding: 0 3rem;
+}
+.px4 {
+  padding: 0 4rem;
+}
+.px5 {
+  padding: 0 5rem;
 }
 
-.row {
-  flex: 1;
+/* MARGIN */
+
+.m1 {
+  margin: 1rem;
+}
+.m2 {
+  margin: 2rem;
+}
+.m3 {
+  margin: 3rem;
+}
+.m4 {
+  margin: 4rem;
+}
+.m5 {
+  margin: 5rem;
+}
+
+.my1 {
+  margin: 1rem 0;
+}
+.my2 {
+  margin: 2rem 0;
+}
+.my3 {
+  margin: 3rem 0;
+}
+.my4 {
+  margin: 4rem 0;
+}
+.my5 {
+  margin: 5rem 0;
+}
+
+.mx1 {
+  margin: 0 1rem;
+}
+.mx2 {
+  margin: 0 2rem;
+}
+.mx3 {
+  margin: 0 3rem;
+}
+.mx4 {
+  margin: 0 4rem;
+}
+.mx5 {
+  margin: 0 5rem;
 }
