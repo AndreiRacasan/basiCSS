@@ -32,6 +32,16 @@ body {
   margin: 0 auto;
 }
 
+.l-heading {
+  font-size: 7.5rem;
+}
+.m-heading {
+  font-size: 6rem;
+}
+.s-heading {
+  font-size: 4.5rem;
+}
+
 h1 {
   font-size: 3.75rem;
   margin-bottom: 0.25rem;
@@ -139,6 +149,10 @@ nav ul li {
   color: var(--light);
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /* PADDING */
 
 .p1 {
@@ -158,35 +172,35 @@ nav ul li {
 }
 
 .py1 {
-  padding: 1rem 0;
+  padding: 1rem inherit;
 }
 .py2 {
-  padding: 2rem 0;
+  padding: 2rem inherit;
 }
 .py3 {
-  padding: 3rem 0;
+  padding: 3rem inherit;
 }
 .py4 {
-  padding: 4rem 0;
+  padding: 4rem inherit;
 }
 .py5 {
-  padding: 5rem 0;
+  padding: 5rem inherit;
 }
 
 .px1 {
-  padding: 0 1rem;
+  padding: inherit 1rem;
 }
 .px2 {
-  padding: 0 2rem;
+  padding: inherit 2rem;
 }
 .px3 {
-  padding: 0 3rem;
+  padding: inherit 3rem;
 }
 .px4 {
-  padding: 0 4rem;
+  padding: inherit 4rem;
 }
 .px5 {
-  padding: 0 5rem;
+  padding: inherit 5rem;
 }
 
 /* MARGIN */
@@ -208,33 +222,39 @@ nav ul li {
 }
 
 .my1 {
-  margin: 1rem 0;
+  margin: 1rem inherit;
 }
 .my2 {
-  margin: 2rem 0;
+  margin: 2rem inherit;
 }
 .my3 {
-  margin: 3rem 0;
+  margin: 3rem inherit;
 }
 .my4 {
-  margin: 4rem 0;
+  margin: 4rem inherit;
 }
 .my5 {
-  margin: 5rem 0;
+  margin: 5rem inherit;
 }
 
 .mx1 {
-  margin: 0 1rem;
+  margin: inherit 1rem;
 }
 .mx2 {
-  margin: 0 2rem;
+  margin: inherit 2rem;
 }
 .mx3 {
-  margin: 0 3rem;
+  margin: inherit 3rem;
 }
 .mx4 {
-  margin: 0 4rem;
+  margin: inherit 4rem;
 }
 .mx5 {
-  margin: 0 5rem;
+  margin: inherit 5rem;
+}
+
+/* MISC */
+
+#hero h1 {
+  margin: 20rem 10rem;
 }
